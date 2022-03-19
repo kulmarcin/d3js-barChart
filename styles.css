@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+body {
+  height: 100vh;
+  background-color: lightsteelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60rem;
+  height: 40rem;
+  background-color: white;
+  box-shadow: 5px 5px 20px;
+}
+
+#title {
+  font-size: 3rem;
+  margin: 2.5rem 0;
+}
+
+.bar {
+  fill: blue;
+}
+.bar:hover {
+  fill: white;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  top: 30%;
+}
+
+/*# sourceMappingURL=styles.css.map */
